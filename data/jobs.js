@@ -1,0 +1,73 @@
+const jobs = [
+  {
+    id: 1,
+    title: "Frontend Developer",
+    company: "Google",
+    location: "Hyderabad",
+    salary: "₹10 LPA",
+    experience: "2+ Years",
+    type: "Full Time",
+    description:
+      "Build modern user interfaces using React and Next.js.",
+    skills: ["HTML", "CSS", "JavaScript", "React"],
+  },
+  {
+    id: 2,
+    title: "Backend Developer",
+    company: "Microsoft",
+    location: "Bangalore",
+    salary: "₹12 LPA",
+    experience: "3+ Years",
+    type: "Full Time",
+    description:
+      "Develop scalable backend APIs using Node.js.",
+    skills: ["Node.js", "Express", "MongoDB", "REST API"],
+  },
+  {
+    id: 3,
+    title: "AI Engineer",
+    company: "OpenAI",
+    location: "Remote",
+    salary: "₹18 LPA",
+    experience: "2+ Years",
+    type: "Remote",
+    description:
+      "Build AI-powered applications using Python and ML.",
+    skills: ["Python", "TensorFlow", "PyTorch", "NLP"],
+  },
+  {
+  id: 4,
+  title: "Java Developer",
+  company: "Infosys",
+  location: "Hyderabad",
+  salary: "₹8 LPA",
+  experience: "1+ Years",
+  type: "Full Time",
+  description: "Develop enterprise applications using Java and Spring Boot.",
+  skills: ["Java", "Spring Boot", "MySQL"],
+},
+{
+  id: 5,
+  title: "React Developer",
+  company: "Amazon",
+  location: "Chennai",
+  salary: "₹15 LPA",
+  experience: "2+ Years",
+  type: "Remote",
+  description: "Develop scalable frontend applications using React.",
+  skills: ["React", "Redux", "JavaScript"],
+},
+{
+  id: 6,
+  title: "Python Developer",
+  company: "TCS",
+  location: "Pune",
+  salary: "₹7 LPA",
+  experience: "Freshers",
+  type: "Internship",
+  description: "Work on automation and backend development.",
+  skills: ["Python", "Flask", "SQL"],
+},
+];
+
+export default jobs;
